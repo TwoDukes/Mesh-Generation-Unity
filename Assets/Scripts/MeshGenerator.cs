@@ -70,7 +70,7 @@ public class MeshGenerator : MonoBehaviour
             for(int x = 0; x <= xSize; x++)
             {
                 float y = calculatePerlinNoise(x, z);
-                vertices[i] = new Vector3(x/0.5f, y, z/0.5f);
+                vertices[i] = new Vector3(x, y, z);
 
                 if (y > maxTerrainHeight)
                     maxTerrainHeight = y;

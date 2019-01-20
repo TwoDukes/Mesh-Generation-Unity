@@ -271,8 +271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26dd71346d0139c42a3b97fe000663a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSize: 100
-  zSize: 100
+  xSize: 200
+  zSize: 200
   gradient:
     serializedVersion: 2
     key0: {r: 0.091252804, g: 0, b: 1, a: 1}
@@ -303,16 +303,16 @@ MonoBehaviour:
     m_NumColorKeys: 6
     m_NumAlphaKeys: 2
   smoothFlow: 0
-  noise01Scale: 0.05
+  noise01Scale: 0.025
   noise01Amp: 34.07
   noise1XOffset: 0
   noise1ZOffset: 0
-  noise02Scale: 0.12
-  noise02Amp: 5.85
-  noise2XOffset: 0
+  noise02Scale: 0.1
+  noise02Amp: 9.7
+  noise2XOffset: -0.15
   noise2ZOffset: 0
   noise03Scale: 0.4
-  noise03Amp: 3
+  noise03Amp: 3.88
   noise3XOffset: 0
   noise3ZOffset: 0
 --- !u!1 &534669902
